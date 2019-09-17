@@ -1,0 +1,112 @@
+body {
+    margin-top: 100px;
+    background-color: #e9ebee;
+    text-align: center;
+}
+
+.radius {
+    border-radius: 900px !important;
+}
+
+.container {
+    width: 900px;
+}
+
+.form-input {
+    width: 350px;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    border: 8px solid #EEEEEE;
+}
+
+.form-input::placeholder {
+    color: #757575;
+}
+
+.contact {
+    padding-left: 15px;
+}
+
+/*
+    .strike source: https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line#answer-22603610
+    Sorry for copying that... 💔
+*/
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: black;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+#page-right-side {
+    background-image: linear-gradient(-50deg, #9a30ae, #0f131a);
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 520px;
+}
+
+#page-left-side {
+    background-color: #fafafa;
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 520px;
+}
+
+#page-title {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#register-btn {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 150px;
+    transition: 0.6s;
+}
+
+#register-btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#login-btn {
+    width: 360px;
+    background-color: #9c27b0;
+    color: white;
+}
+
+#login-btn:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
