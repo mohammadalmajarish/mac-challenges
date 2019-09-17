@@ -1,2 +1,4 @@
-# mac-challenges
-Here you can find my participations in ONE MILLION ARAB CODERS!
+# One Million Arab Coders
+
+###This repository is specially made for One Million Arab Coders challenges ;)
+###Have fun with it!
