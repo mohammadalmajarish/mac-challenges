@@ -34,6 +34,11 @@ $(document).ready(() => {
             type: 'error',
             title: 'Remember it! That\'s not my business'
         })
+        Swal.fire(
+          'Remember it!',
+          'Resetting the password? That\'s not even my business.',
+          'error'
+        );
     });
     console.log('Hello World!');
     'Just for copyright. xD'; // Made by 14 years old boii | Mohammad Almajarish.
