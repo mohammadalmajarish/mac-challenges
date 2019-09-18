@@ -18,22 +18,12 @@ $(document).ready(() => {
             });
             return undefined;
         }
-        const Toast = Swal.mixin({
-            toast: true,
-            position: 'top-end',
-            showConfirmButton: false,
-            timer: 3000
-        });
         Toast.fire({
             type: 'success',
             title: 'Logged in successfully! Welcome {user}' // {user} can be replaced by using .replace method
         });
     });
     forgetBtn.click(() => {
-        Toast.fire({
-            type: 'error',
-            title: 'Remember it! That\'s not my business'
-        })
         Swal.fire(
           'Remember it!',
           'Resetting the password? That\'s not even my business.',
